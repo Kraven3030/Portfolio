@@ -10,13 +10,67 @@ h1 {
     font-family: "Constantia Regular", "Constantia Regular", serif;
     font-size: 25px;
     font-weight: lighter;
-    text-indent: 35ch;
+    text-indent: 50ch;
 }
 
 h2 {
     display: block;
     color: mintcream;
     font-family: "Constantia Regular", "Constantia Regular", serif;
+    font-size: 20px;
     font-weight: lighter;
-    text-indent: 35ch;
+    text-indent: 61ch;
+}
+
+ul {
+    color: mintcream;
+    font-family: "Constantia Regular", "Constantia Regular", serif;
+    font-size: 18px;
+    font-weight: lighter;
+    text-indent: 68ch;
+    text-decoration: underline;
+    text-decoration-color: white;
+    
+}
+
+.footer {
+   position: relative;
+   height: 50px;
+   margin-top: 70vh
+   
+}
+
+.footer-top {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.footer-connection-logos-container {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+
+}
+
+.footer-logo-container {
+    width: 35px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.footer-logo-container-second {
+    width: 35px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.connect-logo {
+    width: 100%;
+    max-height: 100%;
 }
