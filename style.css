@@ -2,21 +2,37 @@ body {
     background: white;
 }
 
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* To edit for name on webpage */
 h2 {
-    font-size: 28px;
+    font-size: 29px;
     padding: 5px;
     color: black;
     margin: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
+/* To edit "Software Engineer" */
 i {
-    font-size: 18px;
+    font-size: 22px;
 }
 
+/* To edit about me, projects, resume links */
 p {
     font-weight: bolder;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
 }
 
+ /* Used to keep links black instead of turning blue */
+a {
+    color: black;
+}
+
+/* Editor for all footer content */
 #footer {
     font-size: 10px;
     margin-left: 30px;
@@ -24,23 +40,25 @@ p {
     bottom: 0;
     width: 100%;
 }
-
+/* Editor for linkedin and github icons position */
 #icons {
     float: right;
     margin-right: 55px;
 }
-
+/* Editor for linkedin and github icons size */
 .social_media {
     height: 50px;
     width: 50px
 }
 
+/* This allows you to move all content to center */
 #main_content {
     display: table;
     height: 100%;
     width: 100%;
     margin-top: 200px;
 }
+
 
 #main_page_wrapper {
     display: table-cell;
@@ -59,12 +77,6 @@ p {
     margin: 0 auto;
     text-align: left;
 }
-
-/* .text_viewpoint {
-    z-index: 4;
-    position: relative;
-    max-width: 400px;
-} */
 
 #main_page_wrapper .image_position {
     height: 700px;
