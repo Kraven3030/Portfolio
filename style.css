@@ -1,14 +1,11 @@
 body {
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,102,167,1) 35%, rgba(252,252,252,1) 100%);
-    font-family: bebas-neue-pro,sans-serif;
+    background: whitesmoke;
 }
 
 h1 {
     font-size: 60px;
     padding: 5px;
     color: mintcream;
-    font-family: 
 }
 
 #footer {
@@ -28,3 +25,40 @@ h1 {
     height: 50px;
     width: 50px
 }
+
+#main_content {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+#main_content_page_wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+    line-height: 1.6;
+    margin-left: 2em;
+}
+
+.main_content_container {
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.text_viewpoint {
+    z-index: 4;
+    position: relative;
+    max-width: 400px;
+}
+
+
+
+
+
+
+
