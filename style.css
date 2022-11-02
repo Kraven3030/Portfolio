@@ -1,0 +1,30 @@
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,102,167,1) 35%, rgba(252,252,252,1) 100%);
+    font-family: bebas-neue-pro,sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    padding: 5px;
+    color: mintcream;
+    font-family: 
+}
+
+#footer {
+    font-size: 10px;
+    margin-left: 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#icons {
+    float: right;
+    margin-right: 55px;
+}
+
+.social_media {
+    height: 50px;
+    width: 50px
+}
