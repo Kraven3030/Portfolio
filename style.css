@@ -1,11 +1,20 @@
 body {
-    background: whitesmoke;
+    background: white;
 }
 
-h1 {
-    font-size: 60px;
+h2 {
+    font-size: 28px;
     padding: 5px;
-    color: mintcream;
+    color: black;
+    margin: 3px;
+}
+
+i {
+    font-size: 18px;
+}
+
+p {
+    font-weight: bolder;
 }
 
 #footer {
@@ -30,9 +39,10 @@ h1 {
     display: table;
     height: 100%;
     width: 100%;
+    margin-top: 200px;
 }
 
-#main_content_page_wrapper {
+#main_page_wrapper {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
@@ -50,10 +60,27 @@ h1 {
     text-align: left;
 }
 
-.text_viewpoint {
+/* .text_viewpoint {
     z-index: 4;
     position: relative;
     max-width: 400px;
+} */
+
+#main_page_wrapper .image_position {
+    height: 700px;
+    margin: -380px 0 0 -20px;
+    position:fixed;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 700px;
+}
+
+#main_page_wrapper .image {
+    height: 750px;
+    overflow: hidden;
+    width: 750px;
+    border-radius: 700px;
 }
 
 
