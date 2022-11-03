@@ -23,7 +23,6 @@
     .aboutMe_secondary {
         max-width: 550px;
         padding-left: 40px;
-        margin-top: 45px;
         margin-left: 615px;
         text-align: center;
     }
@@ -50,6 +49,7 @@
 .aboutMe_words {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif; 
+    margin-bottom: 0;
 }
 
 .image {
@@ -60,11 +60,25 @@
 .occupation {
     text-transform: uppercase;
     text-align: center;
+    font-weight: bolder;
 }
 
 .skills {
     text-transform: uppercase;
     text-align: center;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 20px;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
 }
 
 

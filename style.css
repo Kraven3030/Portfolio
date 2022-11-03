@@ -92,11 +92,31 @@ a {
     height: 750px;
     overflow: hidden;
     width: 750px;
-    border-radius: 700px;
+    /* border-radius: 700px; */
 }
 
+.easterEgg {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+}
 
+.image {
+    animation: rotation 7s linear infinite;
+}
 
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  
+  
 
 
 
