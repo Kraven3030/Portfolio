@@ -121,10 +121,20 @@ a {
     font-family: 'Raleway', sans-serif;
 }
 
+#resume_button {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: 'Raleway', sans-serif;
+}
+
 /* controls the spinning of the image on the page */
 #image {
     animation: rotation 7s linear infinite;
-    animation-play-state: paused;
 }
 
 @keyframes rotation {
