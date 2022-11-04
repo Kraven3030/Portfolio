@@ -1,11 +1,8 @@
-// Funtion to make celtic spiral spin 
-document.querySelector(".image").style.transform = "rotate(90deg)";
-let rotation = 0
-const angle = 90;
+// Funtion to make celtic spiral play or pause spin 
 
-function spin() {
-    rotation = (rotation + angle) % 360;
-    image.style.transform = rotation
-}
 
-return spin()
+const spin = document.querySelector("#spiralStop");
+
+
+
+

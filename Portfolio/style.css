@@ -7,13 +7,13 @@ body {
 }
 
 /* To edit for name on webpage */
-h2 {
+ /* h2 {
     font-size: 29px;
     padding: 5px;
     color: black;
     margin: 3px;
     font-family: 'Raleway', sans-serif;
-}
+}  */
 
 /* To edit "Software Engineer" */
 i {
@@ -88,22 +88,41 @@ a {
     width: 700px;
 }
 
-#main_page_wrapper .image {
+#main_page_wrapper #image {
     height: 750px;
     overflow: hidden;
     width: 750px;
     /* border-radius: 700px; */
 }
 
-.easterEgg {
+#Blake_Button {
     background:none;
     border:none;
     margin:0;
     padding:0;
     cursor: pointer;
+    font-size: 29px;
+    padding: 5px;
+    color: black;
+    margin: 3px;
+    font-family: 'Raleway', sans-serif; 
 }
 
-.image {
+/* Button that controls modal for projects */
+
+#projects_button {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* controls the spinning of the image on the page */
+#image {
     animation: rotation 7s linear infinite;
 }
 
@@ -115,7 +134,6 @@ a {
       transform: rotate(359deg);
     }
   }
-  
   
 
 
