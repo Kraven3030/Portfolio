@@ -124,6 +124,7 @@ a {
 /* controls the spinning of the image on the page */
 #image {
     animation: rotation 7s linear infinite;
+    animation-play-state: paused;
 }
 
 @keyframes rotation {
