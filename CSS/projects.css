@@ -1,0 +1,18 @@
+#coming_soon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%
+}
+
+#go_back {
+    position: absolute;
+    width: 50px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+/* body {
+    background-color: black;
+} */
