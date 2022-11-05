@@ -1,4 +1,4 @@
-// Modal elements
+// Modal variables
 
 const modal = document.getElementById("theModal");
 
