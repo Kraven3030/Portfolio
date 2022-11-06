@@ -34,3 +34,8 @@ function previous() {
 }
 
 
+//=================================================
+
+//Javascript to control the spin of the logo
+
+
