@@ -2,7 +2,7 @@ body {
     background: white;
 }
 
-@media only screen and (min-width: 600px) {
+@media (min-width: 600px) {
     
 }
 
@@ -50,7 +50,8 @@ a {
 /* Editor for linkedin and github icons size */
 .social_media {
     height: 50px;
-    width: 50px
+    width: 50px;
+
 }
 
 /* This allows you to move all content to center */
@@ -61,6 +62,7 @@ a {
     margin-top: 200px;
 }
 
+/* Styling for main page content */
 
 #main_page_wrapper {
     display: table-cell;
@@ -80,6 +82,7 @@ a {
     text-align: left;
 }
 
+/* styling for spiral image position  */
 #main_page_wrapper .image_position {
     height: 700px;
     margin: -380px 0 0 -20px;
@@ -97,6 +100,7 @@ a {
     /* border-radius: 700px; */
 }
 
+/* Styling for Blake button */
 #Blake_Button {
     background:none;
     border:none;
@@ -123,6 +127,7 @@ a {
     font-family: 'Raleway', sans-serif;
 }
 
+/* Styling for resume button */
 #resume_button {
     background:none;
     border:none;
@@ -134,6 +139,7 @@ a {
     font-family: 'Raleway', sans-serif;
 }
 
+/* Styling for about me button */
 #aboutme_button {
     background:none;
     border:none;
@@ -145,7 +151,7 @@ a {
     font-family: 'Raleway', sans-serif;
 }
 
-
+/* Styling for the entire modal */
 #theModal {
     display: none;
     position: fixed;
@@ -155,9 +161,10 @@ a {
     height: 100%;
     width: 100%;
     /* overflow: auto; */
-    background-color: rgba(0, 0, 0, 0.8)
+    background-color: rgba(0, 0, 0, 0.9)
 }
 
+/* Styling for content in modal */
 .modal_content {
     background: rgb(0,0,0);
     background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(12,164,227,1) 50%);
@@ -168,23 +175,27 @@ a {
 
 }
 
+/* styling for X button in modal */
 .close_button {
     color: black;
     float: left;
     font-size: 23px;
 }
 
+/* Reaction for X button in modal */
 .close_button:hover, .close_button:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
 }
+
 /* image inside of modal */
 .image {
     width: 300px;
     float: right;
 }
 
+/* Styling for text in modal */
 h3 {
     text-align: center;
     color: white;
@@ -196,9 +207,9 @@ ul {
 }
 
 
-/* controls the spinning of the image on the page */
-#image {
-    animation: rotation 7s linear infinite;
+/* Controls the spinning of the image on the page */
+#spiral {
+    animation: rotation 9s linear infinite;
 }
 
 @keyframes rotation {
@@ -209,7 +220,7 @@ ul {
       transform: rotate(359deg);
     }
   }
-  
+
 
 
 

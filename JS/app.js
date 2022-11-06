@@ -26,16 +26,29 @@ function closeModal() {
 // Back button on projects page
 const homePage = document.getElementById("go_back")
 
-go_back.addEventListener("click", previous);
-
 // Event listener for back button click
 function previous() {
     history.back();
 }
 
+// go_back.addEventListener("click", previous);
 
 //=================================================
 
 //Javascript to control the spin of the logo
+
+function freeze() {
+    document.getElementById("spiral").style.animationPlayState = "paused"
+}
+
+
+
+
+
+
+
+
+
+
 
 
