@@ -223,9 +223,13 @@ ul {
 
 /* ================================================================== */
 
+/* Styling for mobile response */
 
 
-@media (max-width: 599px) {
+@media screen and (max-width: 599px) {
+    div.imageTwo {
+        display: none;
+    }
 
     body {
         background: white;

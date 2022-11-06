@@ -6,20 +6,20 @@ const modalBtn = document.getElementById("aboutme_button");
 
 const closeBtn = document.getElementsByClassName("close_button")[0]
 
-// Event listeners to open modal
-modalBtn.addEventListener("click", openModal);
-// Event listener to close modal
-closeBtn.addEventListener("click", closeModal);
 
 // Funtion to open modal
 function openModal() {
     modal.style.display = "block"
 }
-
 // Function to close modal
 function closeModal() {
     modal.style.display = "none"
 }
+
+// Event listeners to open modal
+modalBtn.addEventListener("click", openModal);
+// Event listener to close modal
+closeBtn.addEventListener("click", closeModal);
 
 //================================================================
 
@@ -27,15 +27,16 @@ function closeModal() {
 const homePage = document.getElementById("go_back")
 
 // Event listener for back button click
+go_back.addEventListener("click", previous);
+
 function previous() {
     history.back();
 }
 
-// go_back.addEventListener("click", previous);
 
 //=================================================
 
-//Javascript to control the spin of the logo
+//Javascript to control the spin of the logo by clicking it
 
 function freeze() {
     document.getElementById("spiral").style.animationPlayState = "paused"
