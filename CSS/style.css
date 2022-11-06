@@ -47,11 +47,11 @@ a {
     float: right;
     margin-right: 55px;
 }
+
 /* Editor for linkedin and github icons size */
 .social_media {
     height: 50px;
     width: 50px;
-
 }
 
 /* This allows you to move all content to center */
@@ -93,11 +93,10 @@ a {
     width: 700px;
 }
 
-#main_page_wrapper #image {
+#main_page_wrapper #spiral {
     height: 750px;
     overflow: hidden;
     width: 750px;
-    /* border-radius: 700px; */
 }
 
 /* Styling for Blake button */
@@ -155,13 +154,13 @@ a {
 #theModal {
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 1000;
     left: 0;
     top: 0;
     height: 100%;
-    width: 100%;
+    width: 100%; 
     /* overflow: auto; */
-    background-color: rgba(0, 0, 0, 0.9)
+    background-color: rgba(0, 0, 0,)
 }
 
 /* Styling for content in modal */
