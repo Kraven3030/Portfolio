@@ -159,13 +159,13 @@ a {
     height: 100%;
     width: 100%; 
     /* overflow: auto; */
-    background-color: rgba(0, 0, 0)
+    background-color: rgba(0, 0, 0, 0.9)
 }
 
 /* Styling for content in modal */
 .modal_content {
-    background: rgb(0,0,0);
-    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(12,164,227,1) 50%);
+    /* background: rgb(0,0,0); */
+    background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% ); 
     margin: 10% 70% 0 2%;
     padding: 20px;
     width: 45%;
@@ -175,7 +175,7 @@ a {
 
 /* styling for X button in modal */
 .close_button {
-    color: black;
+    color: white;
     float: left;
     font-size: 23px;
 }
@@ -390,13 +390,13 @@ ul {
         height: 100%;
         width: 100%; 
         /* overflow: auto; */
-        background-color: rgba(0, 0, 0)
+        background-color: rgba(0, 0, 0, 0.9)
     }
     
     /* Styling for content in modal */
     .modal_content {
-        background: rgb(0,0,0);
-        background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(12,164,227,1) 50%);
+        /* background: rgb(0,0,0); */
+        background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
         margin: 10% 70% 0 2%;
         padding: 20px;
         width: 45%;
@@ -406,7 +406,7 @@ ul {
     
     /* styling for X button in modal */
     .close_button {
-        color: black;
+        color: white;
         float: left;
         font-size: 23px;
     }
