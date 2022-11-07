@@ -159,7 +159,7 @@ a {
     height: 100%;
     width: 100%; 
     /* overflow: auto; */
-    background-color: rgba(0, 0, 0,)
+    background-color: rgba(0, 0, 0)
 }
 
 /* Styling for content in modal */
@@ -390,7 +390,7 @@ ul {
         height: 100%;
         width: 100%; 
         /* overflow: auto; */
-        background-color: rgba(0, 0, 0,)
+        background-color: rgba(0, 0, 0)
     }
     
     /* Styling for content in modal */
