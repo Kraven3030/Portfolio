@@ -24,15 +24,14 @@ closeBtn.addEventListener("click", closeModal);
 //================================================================
 
 // Back button on projects page
-const homePage = document.getElementById("go_back")
-
+const goback = document.getElementById("goback")
 // Event listener for back button click
-go_back.addEventListener("click", previous);
 
 function previous() {
     history.back();
 }
 
+goback.addEventListener("click", previous);
 
 //=================================================
 
