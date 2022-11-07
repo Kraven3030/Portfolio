@@ -150,6 +150,8 @@ a {
 }
 
 /* Styling for the entire modal */
+
+
 #theModal {
     display: none;
     position: fixed;
