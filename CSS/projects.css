@@ -5,8 +5,8 @@
         margin-left: auto;
         margin-right: auto;
         width: 100%;
-        height: 50%;
-        position: relative;
+        height: 100%;
+        position: fixed;
     }
     
     #goback {
