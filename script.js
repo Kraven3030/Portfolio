@@ -16,6 +16,7 @@ const displayList = () => {
 }
 btnHamburger.addEventListener('click', displayList)
 
+
 const scrollUp = () => {
     const btnScrollTop = document.querySelector('.scroll-top')
 
