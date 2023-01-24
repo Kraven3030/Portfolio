@@ -1,104 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Blake Reed</title>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="JS/app.js" defer></script>
-    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Blake Reed</title>
   </head>
-  <body>
-    <div id="main_content">
-      <div id="main_page_wrapper">
-        <div class="main_content_container">
-          <div class="text_viewpoint">
-            <div id="text_1">
-              <button id="Blake_Button">Blake Reed</button>
-              <p>
-                <i>Software Engineer</i>
-              </p>
-            </div>
-          </div>
-          <div class="text_viewpoint">
-            <p style="text-decoration: underline">
-              <button id="aboutme_button" class="aboutme_modal">
-                About Me
-              </button>
-            </p>
-            <div id="theModal" class="modal">
-              <div class="modal_content">
-                <span class="close_button">&times;</span>
-                <img
-                  class="image"
-                  src="Images/IMG-4518.jpg"
-                  alt="image of Blake"
-                />
-                <h3>Skills | Languages</h3>
-                <ul>
-                  <li>JAVASCRIPT</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>GitHub</li>
-                </ul>
-                <p>
-                  I am a software engineer with a background in customer service
-                  who believes in delivering the best experiences possible for
-                  my clients. I am capable of quickly learning and mastering new
-                  technologies and working in both team and self-directed
-                  settings. My passion to keep growing and progressing is what
-                  drives me to obtain the goals I set for myself.
-                </p>
-              </div>
-            </div>
-            <p style="text-decoration: underline">
-              <a id="projects" href="HTML/projects.html">Projects</a>
-              <button id="projects_button"></button>
-            </p>
-            <p style="text-decoration: underline">
-              <button
-                onclick="window.open('https://drive.google.com/file/d/1qvZBemBz4We9mWGNgVwmewdCfM6xXnQx/view?usp=share_link')"
-                id="resume_button"
-              >
-                View Resume
-              </button>
-            </p>
-          </div>
-          <div class="image_position">
-            <div id="spiral" class="imageTwo" onclick="freeze()">
-              <img
-                src="https://symbolsage.com/wp-content/uploads/2020/07/celtic-spiral-knot.png"
-                alt="image of celtic spiral"
-              />
-            </div>
-          </div>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>BR.</h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+        </ul>
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Blake Reed.</span></h1>
+        <h2 class="about__role">A Software Engineer.</h2>
+        <p class="about__desc">
+          I am a proactive and detail-oriented junior software engineer with a
+          passion for developing innovative solutions to complex technical
+          challenges. With a foundation in computer science principles and a
+          strong drive to deliver high-quality software, I excel at
+          collaborating with cross-functional teams to design and implement
+          scalable and reliable systems. I am always eager to learn and grow,
+          and I am committed to staying up-to-date with the latest technologies
+          and industry best practices
+        </p>
+
+        <div class="about__contact center">
+          <a
+            href="https://docs.google.com/document/d/1aprgnJybVtWr3PtVN15vlL3rmEDfAzMNzaVYiH_M7Sw/edit?usp=sharing"
+          >
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/Kraven3030"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/blakereed30/"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
         </div>
       </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Adventure Seeker</h3>
+            <p class="project__description">
+              This application is a dynamic web platform built using Node.js,
+              Express, and MongoDB. It offers users the ability to easily
+              upload, edit, and delete camping sites and hiking trails.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Javascript</li>
+              <li class="project__stack-item">EJS</li>
+              <li class="project__stack-item">CSS</li>
+            </ul>
+
+            <a
+              href="https://github.com/Kraven3030/Adventure_Seeker"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://adventureseeker-production.up.railway.app/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>My Hero</h3>
+            <p class="project__description">
+              This application is a full-featured web platform built using the
+              MERN stack and styled using Flowbite on top of the Tailwind CSS
+              framework. It utilizes the official Marvel API to provide users
+              with the ability to search for specific heroes and comics within
+              the Marvel universe.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">Javascript</li>
+              <li class="project__stack-item">Tailwind</li>
+            </ul>
+
+            <a
+              href="https://github.com/Kraven3030/My-Hero"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://my-hero.herokuapp.com/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Project 3</h3>
+            <p class="project__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">React</li>
+          <li class="skills__list-item btn btn--plain">Django</li>
+          <li class="skills__list-item btn btn--plain">SQL</li>
+          <li class="skills__list-item btn btn--plain">PostgreSQL</li>
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">Tailwind</li>
+          <li class="skills__list-item btn btn--plain">Bootstrap</li>
+          <li class="skills__list-item btn btn--plain">GitHub</li>
+          <li class="skills__list-item btn btn--plain">Mongo.db</li>
+          <li class="skills__list-item btn btn--plain">Express.js</li>
+          <li class="skills__list-item btn btn--plain">Postman</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/Kraven3030/Portfolio"
+        class="link footer__link"
+      >
+        Created By Blake Reed
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
     </div>
+
+    <script src="./script.js"></script>
   </body>
-  <footer id="feet">
-    All rights reserved Blake Reed 2022 ®
-    <div id="icons">
-      <a href="https://www.linkedin.com/in/blakereed30/" target="_blank">
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/61/61109.png"
-          class="social_media"
-          alt="image of linkedin logo"
-        />
-      </a>
-      <a href="https://github.com/Kraven3030" target="_blank">
-        <img
-          src="https://www.kindpng.com/picc/m/255-2558173_github-logo-png-transparent-png.png"
-          class="social_media"
-          alt="image of github logo"
-        />
-      </a>
-    </div>
-  </footer>
 </html>
