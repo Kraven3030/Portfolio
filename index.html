@@ -35,6 +35,15 @@
           <li class="nav__list-item">
             <a class="link link--nav" href="#skills">Skills</a>
           </li>
+          <li class="nav__list-item">
+            <a
+              class="link link--nav"
+              href=""
+              data-bs-toggle="modal"
+              data-bs-target="#reg-modal"
+              >About me</a
+            >
+          </li>
         </ul>
         <button
           type="button"
@@ -43,6 +52,46 @@
         >
           <i aria-hidden="true" class="fas fa-bars"></i>
         </button>
+
+        <!-- Learn more modal -->
+        <div
+          class="modal fade"
+          id="reg-modal"
+          tabindex="-1"
+          aria-labelledby="modal-title"
+          aria-hidden="true"
+        >
+          <div class="container modal-dialog text-center">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="modal-title">About Me</h4>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <img class="modalImage" src="./images/IMG-4518.jpg" />
+                <p>
+                  I switched careers from customer service to software
+                  engineering after being inspired by the fast-paced and
+                  constantly evolving technology industry. As a former
+                  operations lead for Lyft, I was exposed to the practical
+                  applications of technology in the real world and saw the
+                  potential for positive impact. This led me to pursue a career
+                  in software engineering, so I enrolled at General Assembly and
+                  completed a 12-week software engineering immersive program to
+                  further develop my skills. I am eager to leverage my
+                  experience in operations, problem-solving, and teamwork, along
+                  with my newly acquired technical skills, to create solutions
+                  that positively impact people's lives and businesses.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </nav>
     </header>
 
