@@ -8,7 +8,8 @@ You can also find my resume, which highlights my education and work experience.
 
 Thank you for visiting my portfolio site. If you have any questions or would like to collaborate on a project, please feel free to contact me.
 
-<img width="1440" alt="Screenshot 2023-01-24 at 1 32 48 PM" src="https://user-images.githubusercontent.com/114965290/214426022-8565a91b-ecd1-4913-8d87-f58438cb1346.png">
+<img width="1440" alt="Screenshot 2023-01-29 at 11 30 19 AM" src="https://user-images.githubusercontent.com/114965290/215351159-f315a7d7-1fc0-4d61-8d73-aaf66206ce40.png">
+
 
 
 
