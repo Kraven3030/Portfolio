@@ -31,3 +31,5 @@ const scrollUp = () => {
 }
 
 document.addEventListener('scroll', scrollUp)
+
+
